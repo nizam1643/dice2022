@@ -239,7 +239,7 @@
 
                                 <!-- Title -->
                                 <h5 class="h5-sm">Evaluation Day</h5>
-                                <h5 class="h5-sm">DATE: 11-14 pril 2022 </h5>
+                                <h5 class="h5-sm">DATE: 11-14 APRIL 2022 </h5>
 
                                 <!-- Text -->
                                 <p class="p-lg">Don't miss the opportunity to participate in various exciting activities during this week.
@@ -266,7 +266,7 @@
 
                                 <!-- Title -->
                                 <h5 class="h5-sm">Result Announcement</h5>
-                                <h5 class="h5-sm">date: 15 april 2022</h5>
+                                <h5 class="h5-sm">date: 15 APRIL 2022</h5>
 
                                 <!-- Text -->
                                 <p class="p-lg">The results of the project evaluation are fixed and confirmed by the coordinator
