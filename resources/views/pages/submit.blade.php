@@ -1,7 +1,7 @@
 @extends('front.second')
 
 @section('style')
-<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
 @endsection
 
 @section('content')

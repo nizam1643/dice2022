@@ -37,143 +37,157 @@
     <!-- FAQs-2
     ============================================= -->
     <section id="faqs-2" class="wide-60 faqs-section division">
+
         <div class="container">
 
-            <!-- FAQs-2 QUESTIONS -->
-            <div class="faqs-2-questions">
-                <div class="row row-cols-1 row-cols-lg-2">
+            <!-- SECTION TITLE -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-title title-01 mb-70">
 
-                    <!-- QUESTIONS HOLDER -->
-                    <div class="col">
-                        <div class="questions-holder pr-15">
+                        <!-- Title -->
+                        <h2 class="h2-sm">Don't Miss Out on Winning Attractive Prizes</h2>
 
-                            <!-- QUESTION #1 -->
-                            <div class="question wow fadeInUp">
+                        <!-- Text -->
+                        <p class="p-xl">A variety of exciting awards are offered by different organizations to recognize and celebrate excellence in various fields. These awards can be a great way to motivate and inspire people to achieve their best.
+                        </p>
 
-                                <!-- Question -->
-                                <h5 class="h5-md">Can I see OLMO in action before purchasing?</h5>
-
-                                <!-- Answer -->
-                                <p class="p-lg">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis
-                                    blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit
-                                    vitae
-                                </p>
-
-                            </div>
-
-                            <!-- QUESTION #2 -->
-                            <div class="question wow fadeInUp">
-
-                                <!-- Question -->
-                                <h5 class="h5-md">What are the requirements for using OLMO?</h5>
-
-                                <!-- Answer -->
-                                <p class="p-lg">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo
-                                    integer at velna vitae auctor integer congue undo magna at pretium purus pretium
-                                </p>
-
-                            </div>
-
-                            <!-- QUESTION #3 -->
-                            <div class="question wow fadeInUp">
-
-                                <!-- Question -->
-                                <h5 class="h5-md">Can I use OLMO on different devices?</h5>
-
-                                <!-- Answer -->
-                                <ul class="simple-list">
-
-                                    <li class="list-item">
-                                        <p class="p-lg">Fringilla risus, luctus mauris orci auctor purus ligula euismod
-                                            pretium purus pretium rutrum tempor sapien
-                                        </p>
-                                    </li>
-
-                                    <li class="list-item">
-                                        <p class="p-lg">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales
-                                            sapien undo pretium a purus
-                                        </p>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>	<!-- END QUESTIONS HOLDER -->
-
-                    <!-- QUESTIONS HOLDER -->
-                    <div class="col">
-                        <div class="questions-holder pl-15">
-
-                            <!-- QUESTION #4 -->
-                            <div class="question wow fadeInUp">
-
-                                <!-- Question -->
-                                <h5 class="h5-md">Do you have a free trial?</h5>
-
-                                <!-- Answer -->
-                                <p class="p-lg">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus
-                                    libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien
-                                </p>
-
-                            </div>
-
-                            <!-- QUESTION #5 -->
-                            <div class="question wow fadeInUp">
-
-                                <!-- Question -->
-                                <h5 class="h5-md">How does OLMO handle my privacy?</h5>
-
-                                <!-- Answer -->
-                                <p class="p-lg">Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus.
-                                    Vitae arcu mollis blandit ultrice ligula
-                                </p>
-
-                                <!-- Answer -->
-                                <p class="p-lg">An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu
-                                    mollis blandit integer at velna
-                                </p>
-
-                            </div>
-
-                            <!-- QUESTION #6 -->
-                            <div class="question wow fadeInUp">
-
-                                <!-- Question -->
-                                <h5 class="h5-md">I have an issue with my account</h5>
-
-                                <!-- Answer -->
-                                <ul class="simple-list">
-
-                                    <li class="list-item">
-                                        <p class="p-lg">Fringilla risus, luctus mauris orci auctor purus</p>
-                                    </li>
-
-                                    <li class="list-item">
-                                        <p class="p-lg">Quaerat sodales sapien euismod blandit purus and ipsum primis in
-                                            cubilia laoreet augue luctus
-                                        </p>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>	<!-- END QUESTIONS HOLDER -->
-
-                </div>	<!-- End row -->
-            </div>	<!-- END FAQs-2 QUESTIONS -->
-
-            <!-- MORE QUESTIONS BUTTON -->
-            <div class="row">
-                <div class="col">
-                    <div class="more-questions">
-                        <h5 class="h5-sm">Have more questions? <a href="contacts.html">Ask your question here</a></h5>
                     </div>
                 </div>
             </div>
+
+            <!-- Title -->
+            <h3 class="h2-sm text-center">MAIN AWARDS & PRIZES</h3>
+            <!-- FEATURES-8 WRAPPER -->
+            <div class="fbox-8-wrapper text-center">
+                <div class="row row-cols-1 row-cols-md-3">
+
+                    <!-- FEATURE BOX #1 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                            <!-- Image -->
+                            <div class="fbox-img bg-whitesmoke-gradient">
+                                <img class="img-fluid" src="{{ asset('imagefront/goldMedal.png') }}" alt="Gold Medal DICE" />
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-md">GOLD MEDAL</h5>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- FEATURE BOX #2 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                            <!-- Image -->
+                            <div class="fbox-img bg-whitesmoke-gradient">
+                                <img class="img-fluid" src="{{ asset('imagefront/silverMedal.png') }}" alt="Silver Medal DICE" />
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-md">GOLD SILVER</h5>
+
+                        </div>
+                    </div>
+
+                    <!-- FEATURE BOX #3 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                            <!-- Image -->
+                            <div class="fbox-img bg-whitesmoke-gradient">
+                                <img class="img-fluid" src="{{ asset('imagefront/bronzeMedal.png') }}" alt="Bronze Medal DICE" />
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-md">SILVER BRONZE</h5>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>  <!-- End row -->
+            </div>	<!-- END FEATURES-8 WRAPPER -->
+
+            <br>
+            <!-- DIVIDER LINE -->
+            <hr class="divider">
+            <br>
+
+            <!-- Title -->
+            <h3 class="h2-sm text-center">ADDTIONAL AWARDS & PRIZES</h3>
+            <!-- FEATURES-8 WRAPPER -->
+            <div class="fbox-8-wrapper text-center">
+                <div class="row row-cols-1 row-cols-md-3">
+
+                    <!-- FEATURE BOX #1 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                           <!-- Image -->
+                           <div class="fbox-img bg-whitesmoke-gradient">
+                               <img class="img-fluid" src="{{ asset('imagefront/bestCategory.png') }}" alt="Best Category DICE" />
+                           </div>
+
+                           <!-- Title -->
+                           <h5 class="h5-md">BEST CATEGORY</h5>
+                           </p>
+
+                        </div>
+                    </div>
+
+                    <!-- FEATURE BOX #2 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                           <!-- Image -->
+                           <div class="fbox-img bg-whitesmoke-gradient">
+                               <img class="img-fluid" src="{{ asset('imagefront/bestPoster.png') }}" alt="Best Poster DICE" />
+                           </div>
+
+                           <!-- Title -->
+                           <h5 class="h5-md">BEST POSTER</h5>
+
+                        </div>
+                    </div>
+
+                    <!-- FEATURE BOX #3 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                           <!-- Image -->
+                           <div class="fbox-img bg-whitesmoke-gradient">
+                               <img class="img-fluid" src="{{ asset('imagefront/bestVote.png') }}" alt="Best Vote DICE" />
+                           </div>
+
+                           <!-- Title -->
+                           <h5 class="h5-md">BEST VOTE</h5>
+                           </p>
+
+                        </div>
+                    </div>
+
+                    <!-- FEATURE BOX #3 -->
+                    <div class="col">
+                        <div class="fbox-8 mb-40 wow fadeInUp">
+
+                           <!-- Image -->
+                           <div class="fbox-img bg-whitesmoke-gradient">
+                               <img class="img-fluid" src="{{ asset('imagefront/bestSales.png') }}" alt="Best Sales DICE" />
+                           </div>
+
+                           <!-- Title -->
+                           <h5 class="h5-md">BEST SALES</h5>
+                           </p>
+
+                        </div>
+                    </div>
+
+                </div>  <!-- End row -->
+            </div>	<!-- END FEATURES-8 WRAPPER -->
 
         </div>	   <!-- End container -->
     </section>	<!-- END FAQs-2 -->

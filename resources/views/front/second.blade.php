@@ -51,6 +51,8 @@
 		<!-- RESPONSIVE CSS -->
 		<link href="{{ asset('front/HTML/css/responsive.css') }}" rel="stylesheet">
 
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
         <style>
             .custombg1 {
                 background-color: #1b7b6e !important;
