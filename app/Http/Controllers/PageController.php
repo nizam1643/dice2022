@@ -26,7 +26,7 @@ class PageController extends Controller
     {
         $post = Http::post('https://eform.dice.dynanity.com/api/listproject/2b4ef001153523c0aa6052a69c5a7342',
             [
-            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'key' => '',
             'search' => $request->search,
             ]
     );
