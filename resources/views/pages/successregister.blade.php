@@ -53,37 +53,44 @@
 
                         <div class="mb-4"></div>
                         <h3 class="h2-sm">SUCCESSFUL REGISTRATION LIST</h3>
-                        <div class="table-responsive">
-                            <table class="table table-bordered">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">No.</th>
-                                    <th scope="col">Code</th>
-                                    <th scope="col">Student Name</th>
-                                    <th scope="col">Project Title</th>
-                                    <th scope="col">Category</th>
-                                    <th scope="col">Course</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                    @forelse ($data->data as $item1)
-                                        <tr>
-                                            <th scope="row">{{ $loop->iteration }}</th>
-                                            <td>{{ $item1->code }}</td>
-                                            <td>{{ $item1->name }}</td>
-                                            <td>{{ $item1->title }}</td>
-                                            <td>{{ $item1->categoryname }} <br> ({{ $item1->categorycode }})</td>
-                                            <td>{{ $item1->coursename }} <br> ({{ $item1->coursecode }})</td>
-                                        </tr>
-                                    @empty
+                        <form action="{{ route('page.successregister') }}" method="get">
+                            @csrf
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Search Name</label>
+                                <input type="text" class="form-control" id="search" name="search">
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Code</th>
+                                        <th scope="col">Student Name</th>
+                                        <th scope="col">Project Title</th>
+                                        <th scope="col">Category</th>
+                                        <th scope="col">Course</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        @forelse ($data->data as $item1)
+                                            <tr>
+                                                <th scope="row">{{ $loop->iteration }}</th>
+                                                <td>{{ $item1->code }}</td>
+                                                <td>{{ strtoupper($item1->name) }}</td>
+                                                <td>{{ $item1->title }}</td>
+                                                <td>{{ $item1->categoryname }} <br> ({{ $item1->categorycode }})</td>
+                                                <td>{{ $item1->coursename }} <br> ({{ $item1->coursecode }})</td>
+                                            </tr>
+                                        @empty
 
-                                    @endforelse
-                                </tbody>
-                              </table>
+                                        @endforelse
+                                    </tbody>
+                                </table>
 
 
-                            </table>
-                        </div>
+                                </table>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

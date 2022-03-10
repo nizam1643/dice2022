@@ -22,9 +22,13 @@ class PageController extends Controller
         return view('pages.juryregister');
     }
 
-    public function successregister()
+    public function successregister(Request $request)
     {
-        $post = Http::post('https://eform.dice.dynanity.com/api/listproject/2b4ef001153523c0aa6052a69c5a7342');
+        $post = Http::post('https://eform.dice.dynanity.com/api/listproject/2b4ef001153523c0aa6052a69c5a7342',
+            [
+            'search' => $request->search,
+            ]
+    );
         $data = json_decode($post);
         return view('pages.successregister', compact('data'));
     }
