@@ -78,8 +78,8 @@
                                                 <td>{{ $item1->code }}</td>
                                                 <td>{{ strtoupper($item1->name) }}</td>
                                                 <td>{{ $item1->title }}</td>
-                                                <td>{{ $item1->categoryname }} <br> ({{ $item1->categorycode }})</td>
-                                                <td>{{ $item1->coursename }} <br> ({{ $item1->coursecode }})</td>
+                                                <td>{{ $item1->categorycode }}</td>
+                                                <td>{{ $item1->coursecode }}</td>
                                             </tr>
                                         @empty
 
