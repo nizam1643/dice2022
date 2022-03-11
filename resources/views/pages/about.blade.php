@@ -131,7 +131,7 @@
             </div>	<!-- END FEATURES-5 WRAPPER -->
 
             <!-- Title -->
-            <h3 class="h2-md text-center">OUR COMMITEE</h3>
+            {{-- <h3 class="h2-md text-center">OUR COMMITEE</h3> --}}
 
 
         </div>     <!-- End container -->

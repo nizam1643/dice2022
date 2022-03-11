@@ -62,18 +62,18 @@
                 <div class="col gallery-items-list">
                     <div class="masonry-wrap grid-loaded">
 
-                        {{-- <!-- PROJECT #1 -->
+                        <!-- PROJECT #1 -->
                         <div class="project-details masonry-image">
 
                             <!-- Image -->
                             <div class="project-preview rel">
                                 <div class="hover-overlay">
-                                    <img class="img-fluid" src="{{ asset('front/HTML/images/projects/project-05.jpg') }}" alt="project-preview" />
+                                    <img class="img-fluid" src="{{ asset('imagefront/workshoplaravel.png') }}" alt="Workshop Laravel" />
                                     <div class="item-overlay"></div>
                                 </div>
                             </div>
 
-                        </div>	<!-- END PROJECT #1 --> --}}
+                        </div>	<!-- END PROJECT #1 -->
 
                     </div>
                 </div>
