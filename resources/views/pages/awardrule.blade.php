@@ -261,7 +261,7 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">1.    How can I participate in the DICE 2022 Exhibition?</h5>
+								<h5 class="h5-xl">1.     What are the key components of a video presentation?</h5>
 
 								<!-- Text -->
 								<p class="p-lg">
