@@ -24,6 +24,7 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('/home', 'index')->name('index');
     Route::get('/form/pre-register', 'preregister')->name('preregister');
     Route::get('/form/jury-register', 'juryregister')->name('juryregister');
+    Route::post('/form/jury', 'juryform')->name('juryform');
     Route::get('/form/success-register', 'successregister')->name('successregister');
     Route::get('/form/submit', 'submit')->name('submit');
     Route::get('/activity', 'activity')->name('activity');
