@@ -70,6 +70,12 @@
 
                             <h3 class="h3-sm text-center">Jury Form</h3>
 
+                            @if ($message = Session::get('success'))
+                                <div class="alert alert-success text-center">
+                                    <h2>{{ $message }}</h2>
+                                </div>
+                            @endif
+
                             <!-- Contact Form Input -->
                             <div class="col-md-12">
                                 <p class="p-lg">Your Title: </p>
@@ -101,6 +107,7 @@
                             <div class="col-md-12 input-subject">
                                 <p class="p-lg">Preferred Category: </p>
                                 <span>Choose category, so we know who to send your request to: </span>
+                                <br>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="Interactive Game Development (IG)" id="defaultCheck1" name="category[]" required>
                                     <label class="form-check-label" for="defaultCheck1">
@@ -114,9 +121,9 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Mobile Application (IoT)" id="defaultCheck3" name="category[]" required>
+                                    <input class="form-check-input" type="checkbox" value="Mobile Application (MA)" id="defaultCheck3" name="category[]" required>
                                     <label class="form-check-label" for="defaultCheck3">
-                                        Mobile Application (IoT)
+                                        Mobile Application (MA)
                                     </label>
                                 </div>
                             </div>
