@@ -25,7 +25,7 @@ class PageController extends Controller
     public function juryform(Request $request)
     {
         //dd($request->all());
-        $jury = Http::post('http://dyapp-eform1.test/api/juryform',
+        $jury = Http::post('https://eform.dice.dynanity.com/api/juryform',
             [
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'title' => $request->title,
