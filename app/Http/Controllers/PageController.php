@@ -29,7 +29,7 @@ class PageController extends Controller
             [
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'title' => $request->title,
-            'name' => $request->name,
+            'name' => $request->namereal,
             'email' => $request->email,
             'contact_person' => $request->contact_person,
             'category' => $request->category,

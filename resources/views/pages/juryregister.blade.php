@@ -87,7 +87,7 @@
                             <div class="col-md-12">
                                 <p class="p-lg">Your Name: </p>
                                 <span>Please enter your real name: </span>
-                                <input type="text" name="name" class="form-control" placeholder="Your Name*" required>
+                                <input type="text" name="namereal" class="form-control" placeholder="Your Name*" required>
                             </div>
 
                             <div  class="col-md-12">
