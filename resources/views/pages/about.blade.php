@@ -50,11 +50,7 @@
 
                         <!-- Text -->
                         <p class="p-xl">
-                            Diploma Innovative & Creative Project Exhibition (DICE 2022)
-                            are annual events at Universiti Pendidikan Sultan Idris (UPSI)
-                            where students in the final year of their diploma show off their work and project.
-                            The exhibition can include projects from a variety of technology,
-                            such as digital art, game design, system architecture, software engineering, and computer science.
+                            DICE is an annual exhibition held at Universiti Pendidikan Sultan Idris (UPSI) where diploma students in their final year of study exhibit their work and projects. This exhibition is organised by the Computing Department of Faculty Arts, Computing & Industry Creative. The exhibition will highlight a variety of projects such as digital games, educational games, web-based system, website development, mobile application and Internet of Things (IOT).
                         </p>
 
                     </div>

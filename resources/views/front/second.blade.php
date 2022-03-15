@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   		<!-- SITE TITLE -->
-		<title>ICE 2022 | Diploma Innovative & Creative Project Exhibition</title>
+		<title>DICE 2022 | Diploma Innovative & Creative Project Exhibition</title>
 
 		<!-- FAVICON AND TOUCH ICONS -->
 		<link rel="shortcut icon" href="{{ asset('front/HTML/images/favicon.icoHTML/') }}" type="image/x-icon">
@@ -67,7 +67,7 @@
             }
 
             .custombg4 {
-                background-image: url("{{ asset('imagefront/headerpage.png') }}") !important;
+                background-image: url("{{ asset('imagefront/headerpage4.jpeg') }}") !important;
             }
         </style>
 

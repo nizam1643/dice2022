@@ -128,6 +128,54 @@
 
     </section>	<!-- END HERO-8 -->
 
+        <!-- CONTENT-3
+    ============================================= -->
+    <section id="content-3" class="content-3 wide-60 content-section division">
+        <div class="container">
+
+            <!-- SECTION TITLE -->
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-xl-12">
+                    <div class="section-title title-01 mb-70">
+
+                        <!-- Title -->
+                        <h2 class="h2-sm">Information Slide</h2>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="{{ asset('imageslider/normalslider1.png') }}" class="d-block w-100" alt="Main poster">
+                              </div>
+                              {{-- <div class="carousel-item">
+                                <img src="{{ asset('imageslider/normalslider1.png') }}" class="d-block w-100" alt="Main poster">
+                              </div> --}}
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <!-- Text -->
+                        <p class="p-xl mb-4">An information slide for the event and activity "DICE 2022" is shown. The slide includes the time, date, and location of the event, as well as a brief description of the event.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>	   <!-- End container -->
+    </section>	<!-- END CONTENT-3 -->
+
     <!-- CONTENT-3
     ============================================= -->
     <section id="content-3" class="content-3 wide-60 content-section division">
@@ -142,7 +190,7 @@
                         <h2 class="h2-sm">Diploma Innovative & Creative Project Exhibition (DICE 2022)</h2>
 
                         <!-- Text -->
-                        <p class="p-xl">DICE are annual events at Universiti Pendidikan Sultan Idris (UPSI) where students in the final year of their diploma show off their work and project. The exhibition can include projects from a variety of technology, such as digital art, game design, system architecture, software engineering, and computer science.
+                        <p class="p-xl">DICE is an annual exhibition held at Universiti Pendidikan Sultan Idris (UPSI) where diploma students in their final year of study exhibit their work and projects. This exhibition is organised by the Computing Department of Faculty Arts, Computing & Industry Creative. The exhibition will highlight a variety of projects such as digital games, educational games, web-based system, website development, mobile application and Internet of Things (IOT).
                         </p>
 
                     </div>
@@ -283,55 +331,6 @@
         </div>	   <!-- End container -->
     </section>	<!-- END CONTENT-3 -->
 
-
-    <!-- CONTENT-3
-    ============================================= -->
-    <section id="content-3" class="content-3 wide-60 content-section division custombg2">
-        <div class="container">
-
-            <!-- SECTION TITLE -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-xl-8">
-                    <div class="section-title title-01 mb-70">
-
-                        <!-- Title -->
-                        <h2 class="h2-sm">Information Slide</h2>
-
-                        <!-- Text -->
-                        <p class="p-xl mb-4">On this slide you will find information about the event and activity. This event is a great opportunity to learn more about the topic and network with other professionals.
-                        </p>
-
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="{{ asset('imageslider/1.png') }}" class="d-block w-100" alt="Main poster">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-
-                        <!-- Text -->
-                        <p class="p-xl mb-4">An information slide for the event and activity "DICE 2022" is shown. The slide includes the time, date, and location of the event, as well as a brief description of the event.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>	   <!-- End container -->
-    </section>	<!-- END CONTENT-3 -->
 
     <!-- CONTENT-3
     ============================================= -->

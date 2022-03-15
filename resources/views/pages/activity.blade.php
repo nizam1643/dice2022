@@ -56,10 +56,9 @@
                 </div>
             </div>
 
-
             <!-- PROJECTS-1 WRAPPER -->
             <div class="row">
-                <div class="col gallery-items-list">
+                <div class="col gallery-items-list mb-80">
                     <div class="masonry-wrap grid-loaded">
 
                         <!-- PROJECT #1 -->
@@ -69,6 +68,24 @@
                             <div class="project-preview rel">
                                 <div class="hover-overlay">
                                     <img class="img-fluid" src="{{ asset('imagefront/workshoplaravel.png') }}" alt="Workshop Laravel" />
+                                    <div class="item-overlay"></div>
+                                </div>
+                            </div>
+
+                        </div>	<!-- END PROJECT #1 -->
+
+                    </div>
+                </div>
+                <div class="col gallery-items-list mb-80">
+                    <div class="masonry-wrap grid-loaded">
+
+                        <!-- PROJECT #1 -->
+                        <div class="project-details masonry-image">
+
+                            <!-- Image -->
+                            <div class="project-preview rel">
+                                <div class="hover-overlay">
+                                    <img class="img-fluid" src="{{ asset('imagefront/workshopunity.png') }}" alt="Workshop Unity" />
                                     <div class="item-overlay"></div>
                                 </div>
                             </div>
@@ -96,6 +113,23 @@
                     </div>
                 </div> --}}
             </div>	<!-- END PROJECTS-1 WRAPPER -->
+
+
+            <!-- SECTION TITLE -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-title title-01 mb-80">
+
+                        <!-- Title -->
+                        <h3 class="h3-md">COMING SOON</h3>
+
+                        <!-- Text -->
+                        <p class="p-xl">The Program & Activity section of the website is a great place to find information on upcoming events and activities in your area.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
 
 
         </div>	   <!-- End container -->
