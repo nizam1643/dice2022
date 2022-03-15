@@ -79,15 +79,15 @@
                             <!-- Contact Form Input -->
                             <div class="col-md-12">
                                 <p class="p-lg">Your Title: </p>
-                                <span>Please enter your real name: </span>
-                                <input type="text" name="title" class="form-control name" placeholder="Your Name*" required>
+                                <span>Please enter your title name: </span>
+                                <input type="text" name="title" class="form-control" placeholder="Your Name*" required>
                             </div>
 
                             <!-- Contact Form Input -->
                             <div class="col-md-12">
                                 <p class="p-lg">Your Name: </p>
                                 <span>Please enter your real name: </span>
-                                <input type="text" name="name" class="form-control name" placeholder="Your Name*" required>
+                                <input type="text" name="name" class="form-control" placeholder="Your Name*" required>
                             </div>
 
                             <div  class="col-md-12">
