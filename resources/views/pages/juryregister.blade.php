@@ -60,6 +60,13 @@
                     </div>
                 </div>
             </div>
+            @php
+                $timenow = date('d');
+                $timestart = 16;
+                $timeend = 20;
+            @endphp
+
+            @if ($timenow >= $timestart && $timenow < $timeend)
 
             <!-- CONTACT FORM -->
             <div class="row justify-content-center">
@@ -155,6 +162,8 @@
                     </div>
                 </div>
             </div>	   <!-- END CONTACT FORM -->
+            @endif
+
 
         </div>	   <!-- End container -->
     </section>	<!-- END FAQs-2 -->
