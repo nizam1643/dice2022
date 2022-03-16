@@ -19,13 +19,13 @@
 		<title>DICE 2022 | Diploma Innovative & Creative Project Exhibition</title>
 
 		<!-- FAVICON AND TOUCH ICONS -->
-		<link rel="shortcut icon" href="{{ asset('imagefront/dice.ico') }}" type="image/x-icon">
-		<link rel="icon" href="{{ asset('imagefront/dice.ico') }}" type="image/x-icon">
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('imagefront/dice.ico') }}">
-		<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('imagefront/dice.ico') }}">
-		<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('imagefront/dice.ico') }}">
-		<link rel="apple-touch-icon" href="{{ asset('imagefront/dice.ico') }}">
-		<link rel="icon" href="{{ asset('imagefront/dice.ico') }}" type="image/x-icon">
+		<link rel="shortcut icon" href="{{ asset('imagefront/dice2.ico') }}" type="image/x-icon">
+		<link rel="icon" href="{{ asset('imagefront/dice2.ico') }}" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('imagefront/dice2.ico') }}">
+		<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('imagefront/dice2.ico') }}">
+		<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('imagefront/dice2.ico') }}">
+		<link rel="apple-touch-icon" href="{{ asset('imagefront/dice2.ico') }}">
+		<link rel="icon" href="{{ asset('imagefront/dice2.ico') }}" type="image/x-icon">
 
 		<!-- GOOGLE FONTS -->
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
