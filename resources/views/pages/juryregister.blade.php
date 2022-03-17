@@ -127,12 +127,12 @@
                                         Web Application System (WEB)
                                     </label>
                                 </div>
-                                <div class="form-check">
+                                {{-- <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="Mobile Application (MA)" id="defaultCheck3" name="category[]" required>
                                     <label class="form-check-label" for="defaultCheck3">
                                         Mobile Application (MA)
                                     </label>
-                                </div>
+                                </div> --}}
                             </div>
 
                             <div  class="col-md-12">
