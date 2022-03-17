@@ -62,89 +62,160 @@
                             <!-- Title -->
 							<h2 class="h2-md">Rules Exhibition:</h2>
 
-							<!-- TERMS BOX -->
-							<div class="terms-box">
+                            <div class="row d-flex align-items-center">
 
-								<!-- Title -->
-								<h5 class="h5-xl">1.    How can I participate in the DICE 2022 Exhibition?</h5>
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
 
-								<!-- Text -->
-								<p class="p-lg">
-                                    a) DICE 2022 Exhibition is open for Diploma Final Year Project (FYP) students from FSKIK include Diploma Computer Science (Internet Computing) (A2913), and Diploma Game Design and Development (A2160).
-                                    The aim of this competition is to provide a platform for students to present their Final Year Project and acquire in return experience and insight from people in the industry.
-								</p>
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">1.    How can I participate in the DICE 2022 Exhibition?</h5>
 
-							</div>	<!-- END TERMS BOX -->
+                                            <!-- List -->
+                                            <ul class="simple-list">
 
-							<!-- TERMS BOX -->
-							<div class="terms-box">
+                                                <li class="list-item">
+                                                    <p class="p-lg">
+                                                        a)
+                                                            DICE 2022 Exhibition is open for Diploma Final Year Project (FYP) students from FSKIK include Diploma Computer Science (Internet Computing) (A2913), and Diploma Game Design and Development (A2160).
+                                                            The aim of this competition is to provide a platform for students to present their Final Year Project and acquire in return experience and insight from people in the industry.
+                                                    </p>
+                                                </li>
+                                            </ul>
 
-								<!-- Title -->
-								<h5 class="h5-xl">2.    What type of work can be submitted?</h5>
+                                        </div>	<!-- END TEXT BOX -->
 
-								<!-- Text -->
-								<p class="p-lg">
-                                    a) Participation can be done as individual only and are allowed to submit ONE submission only .
-								</p>
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
 
-                                <!-- Text -->
-								<p class="p-lg">
-                                    b) Each submission consists of a registration id provided, and is required to upload poster and video files through the Dynanity Submission System.
-								</p>
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-5 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                    </div>
+                                </div>
 
-                                <!-- Text -->
-								<p class="p-lg">
-                                    c) Submission via google drive link with video presentation and poster is only allowed for students who have internet access problems with the permission of the Coordinator
-								</p>
+                            </div>
 
-							</div>	<!-- END TERMS BOX -->
+                            <div class="row d-flex align-items-center">
 
-                            <!-- TERMS BOX -->
-							<div class="terms-box">
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
 
-								<!-- Title -->
-								<h5 class="h5-xl">3.    What is a category exhibition for DICE 2022?</h5>
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">2.    What type of work can be submitted?</h5>
 
-								<!-- Text -->
-								<p class="p-lg">
-                                    a) The topics of projects can be any relevant to the field of Computer Science, Games Development, Software Engineering, Information Technology, and Multimedia.
-								</p>
+                                            <!-- List -->
+                                            <ul class="simple-list">
 
-                                <!-- Text -->
-								<p class="p-lg">
-                                    b) List of Category Exhibition:
-								</p>
-                                <!-- List -->
-								<ul class="simple-list">
+                                                <li class="list-item">
+                                                    <!-- Text -->
+                                                    <p class="p-lg">
+                                                        a) Participation can be done as individual only and are allowed to submit ONE submission only .
+                                                    </p>
+                                                </li>
+                                                <li class="list-item">
+                                                    <!-- Text -->
+                                                    <p class="p-lg">
+                                                        b) Each submission consists of a registration id provided, and is required to upload poster and video files through the Dynanity Submission System.
+                                                    </p>
+                                                </li>
+                                                <li class="list-item">
+                                                    <!-- Text -->
+                                                    <p class="p-lg">
+                                                        c) Submission via google drive link with video presentation and poster is only allowed for students who have internet access problems with the permission of the Coordinator
+                                                    </p>
+                                                </li>
+                                            </ul>
 
-									<li class="list-item">
-										<p class="p-lg"> Web Application System (WEB)</p>
-									</li>
+                                        </div>	<!-- END TEXT BOX -->
 
-									<li class="list-item">
-										<p class="p-lg">Interactive Game Development (IG)</p>
-									</li>
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
 
-									<li class="list-item">
-										<p class="p-lg">Mobile Application (MA)</p>
-									</li>
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-5 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                    </div>
+                                </div>
 
-									<li class="list-item">
-										<p class="p-lg">Internet of Things (IoT)</p>
-									</li>
+                            </div>
 
-								</ul>
+                            <div class="row d-flex align-items-center">
 
-							</div>	<!-- END TERMS BOX -->
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
+
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">3.    What is a category exhibition for DICE 2022?</h5>
+
+                                            <!-- List -->
+                                            <ul class="simple-list">
+
+                                                <li class="list-item">
+                                                    <p class="p-lg"> Web Application System (WEB)</p>
+                                                </li>
+
+                                                <li class="list-item">
+                                                    <p class="p-lg">Interactive Game Development (IG)</p>
+                                                </li>
+
+                                                <li class="list-item">
+                                                    <p class="p-lg">Mobile Application (MA)</p>
+                                                </li>
+
+                                                <li class="list-item">
+                                                    <p class="p-lg">Internet of Things (IoT)</p>
+                                                </li>
+
+                                            </ul>
+
+                                        </div>	<!-- END TEXT BOX -->
+
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-5 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row d-flex align-items-center mb-80">
+
+                            </div>
 
                             <!-- Title -->
 							<h2 class="h2-md">Judging Criteria:</h2>
 
-							<!-- TERMS BOX -->
-							<div class="terms-box">
+                            <div class="row d-flex align-items-center">
 
-								<!-- Title -->
-								<h5 class="h5-xl">1.    What factors are considered when evaluating a product?</h5>
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
+
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">1.    What factors are considered when evaluating a product?</h5>
+
+                                            <!-- List -->
 
 								<!-- Text -->
 								<p class="p-lg">
@@ -179,89 +250,170 @@
 
 								</ul>
 
-							</div>	<!-- END TERMS BOX -->
+                                        </div>	<!-- END TEXT BOX -->
+
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-5 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row d-flex align-items-center mb-80">
+
+                            </div>
 
                             <!-- Title -->
 							<h2 class="h2-md">Poster Presentation Details:</h2>
 
-							<!-- TERMS BOX -->
-							<div class="terms-box">
+                            <div class="row d-flex align-items-center">
 
-								<!-- Title -->
-								<h5 class="h5-xl">1.    What are the key components of a poster presentation?</h5>
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
 
-								<!-- Text -->
-								<p class="p-lg">
-                                    a) Participant must provide a poster of own product.
-								</p>
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">1.    What are the key components of a poster presentation?</h5>
 
-                                <!-- Text -->
-								<p class="p-lg">
-                                    b) Poster size : A3
-								</p>
+                                            <!-- Text -->
+                                            <p class="p-lg">
+                                                a) Participant must provide a poster of own product.
+                                            </p>
 
-                                <!-- Text -->
-								<p class="p-lg">
-                                    c) Content of Poster :
-								</p>
+                                            <!-- Text -->
+                                            <p class="p-lg">
+                                                b) Poster size : A3
+                                            </p>
 
-                                <!-- List -->
-								<ul class="simple-list">
+                                            <!-- Text -->
+                                            <p class="p-lg">
+                                                c) Content of Poster :
+                                            </p>
 
-									<li class="list-item">
-										<p class="p-lg"> Project Title</p>
-									</li>
+                                            <!-- List -->
+                                            <ul class="simple-list">
 
-									<li class="list-item">
-										<p class="p-lg">Student Information</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg"> Project Title</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Sysnopsis/Abstract</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Student Information</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Objective</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Sysnopsis/Abstract</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Methodology/ Game Design</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Objective</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Benefit</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Methodology/ Game Design</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Testinng Result</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Benefit</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Product Interface</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Testinng Result</p>
+                                                </li>
 
-                                    <li class="list-item">
-										<p class="p-lg">Conclusion</p>
-									</li>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Product Interface</p>
+                                                </li>
 
-								</ul>
+                                                <li class="list-item">
+                                                    <p class="p-lg">Conclusion</p>
+                                                </li>
 
-                                <img src="{{ asset('imagefront/dice_poster.png') }}" class="rounded mx-auto d-block float-center" width="50%" alt="DICE Poster Template">
+                                            </ul>
 
-                                <p class="p-lg text-center">
-                                    DICE Poster Template
-								</p>
+                                        </div>	<!-- END TEXT BOX -->
 
-							</div>	<!-- END TERMS BOX -->
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                            <img class="img-fluid" src="{{ asset('imagefront/dice_poster.png') }}" width="70%" alt="DICE Poster Template">
+                                            <p class="p-lg text-center">
+                                                DICE Poster Template
+                                            </p>
+                                            <p class="p-lg text-center">
+                                                Download Template: <a href="{{ asset('file/DICE_Info_A3 Poster_1.pptx.pptx') }}" class="text-danger" download>DICE Poster Template</a>
+                                            </p>
+                                    </div>
+                                </div>
+
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
+
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">Example Poster 1</h5>
+
+                                            <img class="img-fluid" src="{{ asset('imagefront/posterIG18.png') }}" width="90%" alt="DICE Poster Template">
+
+                                        </div>	<!-- END TEXT BOX -->
+
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
+
+                                        <!-- TEXT BOX -->
+                                        <div class="txt-box">
+                                            <br>
+                                            <!-- Title -->
+                                            <h5 class="h5-md">Example Poster 2</h5>
+
+                                            <img class="img-fluid" src="{{ asset('imagefront/posterWEB21.png') }}" width="90%" alt="DICE Poster Template">
+
+                                        </div>	<!-- END TEXT BOX -->
+
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                            </div>
+
+                            <div class="row d-flex align-items-center mb-80">
+
+                            </div>
 
                             <!-- Title -->
 							<h2 class="h2-md">Video Presentation Details:</h2>
 
-							<!-- TERMS BOX -->
-							<div class="terms-box">
+                            <div class="row d-flex align-items-center">
 
-								<!-- Title -->
-								<h5 class="h5-xl">1.     What are the key components of a video presentation?</h5>
+                                <!-- TEXT BLOCK -->
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="txt-block right-column wow fadeInLeft">
+
+                            <!-- TEXT BOX -->
+                            <div class="txt-box">
+                                <br>
+                                <!-- Title -->
+                                <h5 class="h5-md">1.    What are the key components of a video presentation?</h5>
+
+                                <!-- List -->
+
 
 								<!-- Text -->
 								<p class="p-lg">
@@ -278,7 +430,26 @@
                                     c) The organizer reserves the right to reject video presentation for the participant that has been sent if there is exceed of time that given for the video presentation.
 								</p>
 
-							</div>	<!-- END TERMS BOX -->
+                                        </div>	<!-- END TEXT BOX -->
+
+                                    </div>
+                                </div>	<!-- END TEXT BLOCK -->
+
+                                <!-- IMAGE BLOCK -->
+                                <div class="col-md-5 col-lg-6">
+                                    <div class="rel img-block left-column wow fadeInRight">
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=cYwiX1Tnwo8" class="text-danger">
+                                            <img class="img-fluid" src="{{ asset('file/Screenshot 2022-03-17 143830.png') }}" alt="video-preview">
+                                                Example Video: DICE 2021 Video
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row d-flex align-items-center">
+
+                            </div>
 
 					</div>     <!-- End row -->
 
