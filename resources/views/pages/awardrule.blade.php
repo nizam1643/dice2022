@@ -94,7 +94,7 @@
                                 <!-- IMAGE BLOCK -->
                                 <div class="col-md-5 col-lg-6">
                                     <div class="rel img-block left-column wow fadeInRight">
-                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                            <img class="img-fluid" src="{{ asset('imagefront/Solving-Problem.png') }}" width="60%" alt="video-preview">
                                     </div>
                                 </div>
 
@@ -143,7 +143,7 @@
                                 <!-- IMAGE BLOCK -->
                                 <div class="col-md-5 col-lg-6">
                                     <div class="rel img-block left-column wow fadeInRight">
-                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                            <img class="img-fluid" src="{{ asset('imagefront/Get-Started.png') }}" width="60%" alt="video-preview">
                                     </div>
                                 </div>
 
@@ -190,7 +190,7 @@
                                 <!-- IMAGE BLOCK -->
                                 <div class="col-md-5 col-lg-6">
                                     <div class="rel img-block left-column wow fadeInRight">
-                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                            <img class="img-fluid" src="{{ asset('imagefront/Product-Release.png') }}" width="60%" alt="video-preview">
                                     </div>
                                 </div>
 
@@ -258,7 +258,7 @@
                                 <!-- IMAGE BLOCK -->
                                 <div class="col-md-5 col-lg-6">
                                     <div class="rel img-block left-column wow fadeInRight">
-                                            <img class="img-fluid" src="{{ asset('front/HTML/images/seo-01.png') }}" width="60%" alt="video-preview">
+                                            <img class="img-fluid" src="{{ asset('imagefront/Testimonial.png') }}" width="60%" alt="video-preview">
                                     </div>
                                 </div>
 
