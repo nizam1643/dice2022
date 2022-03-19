@@ -99,7 +99,7 @@
                 <!-- HERO IMAGE -->
                 <div class="col-lg-6 order-last order-lg-2">
                     <div class="hero-8-img pc-20 text-center">
-                        <img class="img-fluid" src="{{ asset('front/HTML/images/hero-8-img.png') }}" alt="hero-image">
+                        <img class="img-fluid" src="{{ asset('imagefront/ROBOT.png') }}" alt="hero-image">
                     </div>
                 </div>
 

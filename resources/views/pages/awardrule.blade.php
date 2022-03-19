@@ -422,7 +422,7 @@
 
                                 <!-- Text -->
 								<p class="p-lg">
-                                    b) Duration of video : 5 minutes (3 minute product introduction + 2 minute product demonstration)
+                                    b) Duration of video : 6 minutes (3 minute project introduction + 3 minute project demonstration)
 								</p>
 
                                 <!-- Text -->
