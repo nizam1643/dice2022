@@ -66,7 +66,7 @@
                 $timeend = 20;
             @endphp
 
-            @if ($timenow >= $timestart && $timenow < $timeend)
+            @if ($timenow >= $timestart && $timenow <= $timeend)
 
             <!-- CONTACT FORM -->
             <div class="row justify-content-center">
