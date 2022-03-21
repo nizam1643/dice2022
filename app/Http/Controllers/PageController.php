@@ -83,10 +83,6 @@ class PageController extends Controller
 
     public function vmarketplace()
     {
-        $method1 = request()->ip();
-        $method2 = request()->getClientIp();
-        dd($method1);
-
         return view('pages.vmarketplace');
     }
 
