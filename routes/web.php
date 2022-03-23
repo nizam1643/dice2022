@@ -42,6 +42,6 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('test/virtual/marketplace', 'vmarketplace1')->name('vmarketplace1');
 });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
