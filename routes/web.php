@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
@@ -34,4 +35,13 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('/virtual/project', 'vproject')->name('vproject');
     Route::get('/virtual/marketplace', 'vmarketplace')->name('vmarketplace');
     Route::get('/about', 'about')->name('about');
+
+    Route::get('test/company', 'company1')->name('company1');
+    Route::get('test/companyProject', 'companyProject1')->name('companyProject1');
+    Route::get('test/virtual/project', 'vproject1')->name('vproject1');
+    Route::get('test/virtual/marketplace', 'vmarketplace1')->name('vmarketplace1');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

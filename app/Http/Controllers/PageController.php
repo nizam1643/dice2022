@@ -46,7 +46,7 @@ class PageController extends Controller
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'search' => $request->search,
             ]
-    );
+        );
         $data = json_decode($post);
         return view('pages.successregister', compact('data'));
     }
@@ -76,18 +76,93 @@ class PageController extends Controller
         return view('pages.awardwinner');
     }
 
-    public function vproject()
+    public function vproject(Request $request)
     {
-        return view('pages.vproject');
+        $post = Http::post('https://eform.dice.dynanity.com/api/listproject',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'search' => $request->search,
+            ]
+        );
+        $data = json_decode($post);
+        return view('pages.vproject', compact('data'));
+    }
+
+    public function voteposter(Request $request)
+    {
+        dd($request->all());
+        $post = Http::post('https://eform.dice.dynanity.com/api/voteposter',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'ip_address' => $request->ip(),
+            'poster_id' => $request->poster_id,
+            'count' => '1',
+            ]
+        );
+        return redirect()->back() ->with('success', 'Created successfully!');
     }
 
     public function vmarketplace()
     {
+        $method1 = request()->ip();
         return view('pages.vmarketplace');
+    }
+
+    public function company()
+    {
+        return view('pages.company');
+    }
+
+    public function companyProject()
+    {
+        return view('pages.companyProject');
     }
 
     public function about()
     {
         return view('pages.about');
+    }
+
+
+    public function company1()
+    {
+        return view('pages.company');
+    }
+
+    public function companyProject1()
+    {
+        return view('pages.companyProject');
+    }
+
+    public function vproject1(Request $request)
+    {
+        $post = Http::post('https://eform.dice.dynanity.com/api/listproject',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'search' => $request->search,
+            ]
+        );
+        $data = json_decode($post);
+        return view('pages.vproject', compact('data'));
+    }
+
+    public function voteposter1(Request $request)
+    {
+        dd($request->all());
+        $post = Http::post('https://eform.dice.dynanity.com/api/voteposter',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'ip_address' => $request->ip(),
+            'poster_id' => $request->poster_id,
+            'count' => '1',
+            ]
+        );
+        return redirect()->back() ->with('success', 'Created successfully!');
+    }
+
+    public function vmarketplace1()
+    {
+        $method1 = request()->ip();
+        return view('pages.vmarketplace');
     }
 }
