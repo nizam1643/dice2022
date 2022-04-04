@@ -260,7 +260,7 @@
 
                                 <!-- Title -->
                                 <h5 class="h5-sm">Submission</h5>
-                                <h5 class="h5-sm">DATE: 04-10 APRIL 2022</h5>
+                                <h5 class="h5-sm">DATE: 07-10 APRIL 2022</h5>
 
                                 <!-- Text -->
                                 <p class="p-lg">Take your time working on a project and submit your project by the end of the month.
@@ -350,7 +350,7 @@
                             In just a few weeks, submission countdown will be over and participants DICE 2022 will be able to finally start involved the new chapter of the event.
                         </p>
 
-                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-04 09:00">Countdown</a>
+                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 09:00">Countdown</a>
 
                     </div>
                 </div>
