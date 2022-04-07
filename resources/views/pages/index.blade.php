@@ -350,7 +350,7 @@
                             In just a few weeks, submission countdown will be over and participants DICE 2022 will be able to finally start involved the new chapter of the event.
                         </p>
 
-                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 09:00">Countdown</a>
+                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 14:00">Countdown</a>
 
                     </div>
                 </div>

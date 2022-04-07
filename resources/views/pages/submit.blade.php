@@ -53,7 +53,7 @@
 
                         <img src="{{ asset('imagefront/closed-submit1.png') }}" class="img-fluid" alt="Closed Event">
 
-                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 09:00">Countdown</a>
+                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 14:00">Countdown</a>
                     </div>
                 </div>
             </div>
