@@ -343,14 +343,14 @@
                     <div class="section-title title-01 mb-70">
 
                         <!-- Title -->
-                        <h2 class="h2-sm">Submission Countdown</h2>
+                        <h2 class="h2-sm">Deadline For Submission</h2>
 
                         <!-- Text -->
                         <p class="p-xl">
                             In just a few weeks, submission countdown will be over and participants DICE 2022 will be able to finally start involved the new chapter of the event.
                         </p>
 
-                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 17:00">Countdown</a>
+                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-10 17:00">Countdown</a>
 
                     </div>
                 </div>

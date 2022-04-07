@@ -51,9 +51,18 @@
                         <p class="p-xl">Ensuring that your game project submission is in compliance with the DICE 2022 Rules and Criteria is critical to having your work considered for the awards show. These guidelines include important information on the eligibility of your project, the submission process, and more.
                         </p>
 
-                        <img src="{{ asset('imagefront/closed-submit1.png') }}" class="img-fluid" alt="Closed Event">
+                        <a target="_blank" href="https://youtu.be/sqcdLeO8rw8"> <img src="{{ asset('imagefront/manual.png') }}" class="img-fluid" alt="Closed Event"> </a>
+                        User Manual Link: <a href="https://youtu.be/sqcdLeO8rw8" target="_blank" rel="noopener noreferrer" class="text-danger">https://youtu.be/sqcdLeO8rw8</a>
 
-                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-07 17:00">Countdown</a>
+                        <div class="mb-4"></div>
+
+                        <a target="_blank" href="https://eform.dice.dynanity.com/submit/login"><img src="{{ asset('imagefront/buttonsubmit.png') }}" class="img-fluid" width="30%" alt="Closed Event"></a>
+                        System Link: <a href="https://eform.dice.dynanity.com/submit/login" target="_blank" rel="noopener noreferrer" class="text-danger">https://eform.dice.dynanity.com/submit/login</a>
+                        <!-- Text -->
+                        <p class="p-xl">Deadline For Submission</p>
+                        </p>
+
+                        <a href="https://logwork.com/countdown-sbdb" class="countdown-timer" data-timezone="Asia/Kuala_Lumpur" data-date="2022-04-10 17:00">Countdown</a>
                     </div>
                 </div>
             </div>
