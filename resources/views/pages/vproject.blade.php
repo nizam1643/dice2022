@@ -36,7 +36,7 @@
 
         <!-- FAQs-2
         ============================================= -->
-        <section id="faqs-2" class="wide-60 faqs-section division">
+        <section id="faqs-2" class="wide-100 faqs-section division">
             <div class="container">
 
             <!-- SECTION TITLE -->
@@ -58,12 +58,23 @@
                 <div class="collapse show" id="collapseExample1">
                     <div class="row">
                         @forelse ($data->data as $item1)
-                            <div class="col-sm-4 mb-2">
-                                <div class="card">
+                            <div class="col-xl-4 col-12 mb-2">
+                                <div class="card h-100">
                                     <img src="{{ $item1->poster }}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title text-center">{{ $item1->code }}</h5>
-                                    {{-- <a href="#" class="btn btn-skyblue tra-grey-hover">Full View</a> --}}
+                                    <form action="{{ route('page.voteposter1', $item1->id) }}" method="POST">
+                                        @csrf
+                                        <div class="d-flex justify-content-center">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="{{ $item1->poster }}" class="btn btn-skyblue tra-grey-hover">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

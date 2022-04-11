@@ -146,17 +146,17 @@ class PageController extends Controller
         return view('pages.vproject', compact('data'));
     }
 
-    public function voteposter1(Request $request)
+    public function voteposter1(Request $request, $id)
     {
-        dd($request->all());
         $post = Http::post('https://eform.dice.dynanity.com/api/voteposter',
             [
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'ip_address' => $request->ip(),
-            'poster_id' => $request->poster_id,
+            'project_id' => $id,
             'count' => '1',
             ]
         );
+
         return redirect()->back() ->with('success', 'Created successfully!');
     }
 
