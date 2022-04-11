@@ -34,10 +34,32 @@
 
         </div>	<!-- END PAGE HERO -->
 
+
         <!-- FAQs-2
         ============================================= -->
         <section id="faqs-2" class="wide-100 faqs-section division">
             <div class="container">
+
+            <!-- SECTION TITLE -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-title title-01 mb-70">
+
+                        <!-- Title -->
+                        <h2 class="h2-sm">Let Vote Your Favourite Poster</h2>
+
+                        <!-- Text -->
+                        <h2>Rules: <br></h2>
+                        <p class="p-xl">
+                            1.For your information, the voting period is from <br> <b>11/4/2022 - 11.30 AM</b> to <b>14/4/2022 - 3.05 PM</b>.
+                        </p>
+                        <p class="p-xl">
+                            2.You only can voting your favourite poster once</b>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
 
             <!-- SECTION TITLE -->
             <div class="row justify-content-center">
@@ -82,7 +104,9 @@
                                         <div class="d-flex justify-content-center">
                                             <div class="row">
                                                 <div class="col-6">
-                                                    {{-- <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button> --}}
+                                                    @if ($check->data != '1')
+                                                    <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button>
+                                                    @endif
                                                 </div>
                                                 <div class="col-6">
                                                     <a href="{{ $item1->poster }}" target="_blank" class="btn btn-skyblue tra-grey-hover">View</a>

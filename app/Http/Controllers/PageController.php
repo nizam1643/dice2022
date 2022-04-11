@@ -84,8 +84,15 @@ class PageController extends Controller
             'search' => $request->search,
             ]
         );
+        $check = Http::post('http://dyapp-eform1.test/api/votecheck',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'ip_address' => $request->ip(),
+            ]
+        );
         $data = json_decode($post);
-        return view('pages.vproject', compact('data'));
+        $check = json_decode($check);
+        return view('pages.vproject', compact('data', 'check'));
     }
 
     public function voteposter(Request $request)
