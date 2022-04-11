@@ -84,7 +84,7 @@ class PageController extends Controller
             'search' => $request->search,
             ]
         );
-        $check = Http::post('http://dyapp-eform1.test/api/votecheck',
+        $check = Http::post('https://eform.dice.dynanity.com/api/votecheck',
             [
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'ip_address' => $request->ip(),
