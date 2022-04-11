@@ -159,7 +159,7 @@ class PageController extends Controller
             [
             'key' => '2b4ef001153523c0aa6052a69c5a7342',
             'ip_address' => $request->ip(),
-            'project_id' => $id,
+            'project_id' => ,
             'count' => '1',
             ]
         );
