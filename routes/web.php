@@ -36,7 +36,7 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('/virtual/marketplace', 'vmarketplace')->name('vmarketplace');
     Route::get('/about', 'about')->name('about');
 
-    Route::post('/voteposter1/{id}', 'voteposter1')->name('voteposter1');
+    Route::post('/voteposter1', 'voteposter1')->name('voteposter1');
 
     Route::get('test/company', 'company')->name('company');
     Route::get('test/companyProject', 'companyProject')->name('companyProject');

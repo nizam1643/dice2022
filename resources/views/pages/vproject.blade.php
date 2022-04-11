@@ -99,18 +99,22 @@
                                     <img src="{{ $item1->poster }}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title text-center">{{ $item1->code }}</h5>
-                                    <form action="{{ route('page.voteposter1', $item1->id) }}" method="POST">
+                                    <form action="{{ route('page.voteposter1') }}" method="POST">
                                         @csrf
                                         <div class="d-flex justify-content-center">
                                             <div class="row">
                                                 <div class="col-6">
-
+                                                    @if ($check->data != '0')
+                                                    <input type="hidden" name="projectDD" value="{{ $item1->id }}">
+                                                    <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button>
+                                                    @endif
                                                 </div>
                                                 <div class="col-6">
                                                     <a href="{{ $item1->poster }}" target="_blank" class="btn btn-skyblue tra-grey-hover">View</a>
                                                 </div>
                                             </div>
                                         </div>
+                                    </form>
                                     </div>
                                 </div>
                             </div>
