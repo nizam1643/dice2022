@@ -104,7 +104,7 @@
                                         <div class="d-flex justify-content-center">
                                             <div class="row">
                                                 <div class="col-6">
-                                                    @if ($check->data != '0')
+                                                    @if ($check->data == '0')
                                                     <input type="hidden" name="projectDD" value="{{ $item1->id }}">
                                                     <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button>
                                                     @endif
