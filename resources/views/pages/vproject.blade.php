@@ -66,20 +66,7 @@
                 <p class="text-center">
                     <form action="{{ route('page.vproject') }}" method="get">
                         @csrf
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Search Name</label>
-                            <select class="form-select" name="search" aria-label="Default select example">
-                                <option selected>Select Category</option>
-                                <option value="">All</option>
-                                <option value="1">IG</option>
-                                <option value="2">WEB</option>
-                                <option value="3">MA</option>
-                            </select>
-                            <div class="mb-3"></div>
-                            <div class="d-flex justify-content-end">
-                                <button type="submit" class="btn btn-skyblue tra-grey-hover">Search</button>
-                            </div>
-                        </div>
+
                     </form>
                     {{-- <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
                     |    Web Application System (WEB)
