@@ -90,7 +90,7 @@
 				<div id="responsive-nav">
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
-						<li class="active"><a href="{{ route('page.company') }}">Home</a></li>
+						<li class="active"><a href="{{ route('page.vmarketplace') }}">Home</a></li>
 					</ul>
 					<!-- /NAV -->
 				</div>
