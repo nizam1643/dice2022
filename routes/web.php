@@ -38,7 +38,6 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
 
     Route::post('/voteposter1/{id}', 'voteposter1')->name('voteposter1');
 
-
     Route::get('test/company', 'company')->name('company');
     Route::get('test/companyProject', 'companyProject')->name('companyProject');
     Route::get('test/virtual/project', 'vproject1')->name('vproject1');
