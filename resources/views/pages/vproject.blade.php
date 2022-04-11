@@ -68,10 +68,10 @@
                                         <div class="d-flex justify-content-center">
                                             <div class="row">
                                                 <div class="col-6">
-                                                    <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button>
+                                                    {{-- <button type="submit" class="btn btn-skyblue tra-grey-hover">Vote</button> --}}
                                                 </div>
                                                 <div class="col-6">
-                                                    <a href="{{ $item1->poster }}" class="btn btn-skyblue tra-grey-hover">View</a>
+                                                    <a href="{{ $item1->poster }}" target="_blank" class="btn btn-skyblue tra-grey-hover">View</a>
                                                 </div>
                                             </div>
                                         </div>
