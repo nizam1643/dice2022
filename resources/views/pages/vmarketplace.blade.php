@@ -93,7 +93,7 @@
                                 </div>
                             <div class="text-center mb-4"> <span><b>"{{ $company->tagline }}"</b></span>
                             </div>
-
+                            <a href="{{ route('page.vcompany', [$company->slug, '1']) }}" target="_blank" class="btn btn-danger btn-skyblue tra-grey-hover">View More</a>
                         </div>
                     </div>
                 @empty

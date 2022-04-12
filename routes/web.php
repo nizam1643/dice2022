@@ -35,6 +35,7 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('/virtual/project', 'vproject')->name('vproject');
     Route::get('/virtual/marketplace', 'vmarketplace')->name('vmarketplace');
     Route::get('/virtual/company/{id}', 'vcompany')->name('vcompany');
+    Route::get('/virtual/company/{id}/{item}', 'vshow')->name('vshow');
     Route::get('/about', 'about')->name('about');
 
     Route::post('/voteposter1', 'voteposter1')->name('voteposter1');

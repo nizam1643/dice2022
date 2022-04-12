@@ -144,13 +144,131 @@
 		</div>
 		<!-- /SECTION -->
 
+        		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+                    <div class="section-title text-center">
+                        <h3 class="title">{{ $data2->data->name }}</h3>
+                    </div>
+					<!-- Product main img -->
+					<div class="col-md-5 col-md-push-2">
+						<div id="product-main-img">
+							<div class="product-preview">
+								<img src="{{ $data2->data->image }}" alt="">
+							</div>
+						</div>
+					</div>
+					<!-- /Product main img -->
+
+					<!-- Product thumb imgs -->
+					<div class="col-md-2  col-md-pull-5">
+
+					</div>
+					<!-- /Product thumb imgs -->
+
+					<!-- Product details -->
+					<div class="col-md-5">
+						<div class="product-details">
+							{{-- <div>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<a class="review-link" href="#">10 Review(s) | Add your review</a>
+							</div> --}}
+							<div>
+								<h3 class="product-price">RM{{ $data2->data->price }}</h3>
+								<span class="product-available">In Stock</span>
+							</div>
+							<p>{{ $data2->data->description }}</p>
+
+							<div class="add-to-cart">
+								{{-- <div class="qty-label">
+									Qty
+									<div class="input-number">
+										<input type="number">
+										<span class="qty-up">+</span>
+										<span class="qty-down">-</span>
+									</div>
+								</div> --}}
+								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Buy</button>
+							</div>
+
+							{{-- <ul class="product-links">
+								<li>Category:</li>
+								<li><a href="#">Headphones</a></li>
+								<li><a href="#">Accessories</a></li>
+							</ul> --}}
+
+						</div>
+					</div>
+					<!-- /Product details -->
+
+					<!-- Product tab -->
+					<div class="col-md-12">
+						<div id="product-tab">
+							<!-- product tab nav -->
+							<ul class="tab-nav">
+								<li class="active"><a data-toggle="tab" href="#tab1"><h3 class="title">Cinematic Trailer</h3></a></li>
+								{{-- <li><a data-toggle="tab" href="#tab2">Details</a></li> --}}
+								{{-- <li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li> --}}
+							</ul>
+							<!-- /product tab nav -->
+
+							<!-- product tab content -->
+							<div class="tab-content">
+								<!-- tab1  -->
+								<div id="tab1" class="tab-pane fade in active">
+									<div class="container">
+                                        <!-- row -->
+                                        <div class="row">
+                                            <!-- Product main img -->
+                                            <div class="col-md-6">
+                                                <h3 class="title">Cinematic Trailer</h3>
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K2dkJt9R0tQ?rel=0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <!-- /Product main img -->
+                                            <br>
+                                            <br>
+                                            <!-- Product details -->
+                                            <div class="col-md-12">
+
+                                            </div>
+                                            <!-- /Product details -->
+
+                                        </div>
+                                        <!-- /row -->
+                                    </div>
+								</div>
+								<!-- /tab1  -->
+							</div>
+                            <h3 class="title"></h3>
+							<!-- /product tab content  -->
+						</div>
+					</div>
+					<!-- /product tab -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
 		<!-- SECTION -->
 		<div class="section">
 			<!-- container -->
 			<div class="container">
 				<div class="col-md-12">
                     <div class="section-title text-center">
-                        <h3 class="title">MAIN Products</h3>
+                        <h3 class="title">Other Products</h3>
                     </div>
                     <!-- product -->
                     @forelse ($data1->data->company_product as $item1)
@@ -173,9 +291,6 @@
                                     </div>
                                 </a>
                             </div>
-                            {{-- <div class="add-to-cart">
-                                <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-                            </div> --}}
                         </div>
                     </div>
                     @empty

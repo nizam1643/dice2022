@@ -138,6 +138,25 @@ class PageController extends Controller
         return view('pages.companyProject', compact('data1'));
     }
 
+    public function vshow($id, $item)
+    {
+        $companys = Http::post('https://eform.dice.dynanity.com/api/detailcompany',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'slug' => $id,
+            ]
+        );
+        $products = Http::post('https://eform.dice.dynanity.com/api/product',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'product' => $item,
+            ]
+        );
+        $data1 = json_decode($companys);
+        $data2 = json_decode($products);
+        return view('pages.companyPShow', compact('data1', 'data2'));
+    }
+
     public function company()
     {
         return view('pages.company');
