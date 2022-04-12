@@ -111,8 +111,31 @@ class PageController extends Controller
 
     public function vmarketplace()
     {
-        $method1 = request()->ip();
-        return view('pages.vmarketplace');
+        $companys = Http::post('https://eform.dice.dynanity.com/api/companylist',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            ]
+        );
+        $bests = Http::post('https://eform.dice.dynanity.com/api/bestlist',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            ]
+        );
+        $data1 = json_decode($companys);
+        $data2 = json_decode($bests);
+        return view('pages.vmarketplace', compact('data1', 'data2'));
+    }
+
+    public function vcompany($id)
+    {
+        $companys = Http::post('https://eform.dice.dynanity.com/api/detailcompany',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            'slug' => $id,
+            ]
+        );
+        $data1 = json_decode($companys);
+        return view('pages.companyProject', compact('data1'));
     }
 
     public function company()
@@ -169,7 +192,13 @@ class PageController extends Controller
 
     public function vmarketplace1()
     {
-        $method1 = request()->ip();
+        //$method1 = request()->ip();
+        $post = Http::post('https://eform.dice.dynanity.com/api/companylist',
+            [
+            'key' => '2b4ef001153523c0aa6052a69c5a7342',
+            ]
+        );
+        dd($post);
         return view('pages.vmarketplace');
     }
 }

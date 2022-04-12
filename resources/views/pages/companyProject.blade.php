@@ -110,7 +110,7 @@
                 <!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h3 class="title">Company Name & One Offcial Bannner</h3>
+							<h3 class="title text-center">{{ $data1->data->name }}</h3>
 							<div class="section-nav">
 
 							</div>
@@ -124,7 +124,7 @@
                         <div class="collapse show" id="collapseExample1">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="https://venturebeat.com/wp-content/uploads/2020/05/Garena-Free-Fire.jpg?fit=750%2C422&strip=all" height="400" alt="">
+                                    <img src="{{ $data1->data->banner }}" alt="">
                                     <div class="product-label">
                                         <span class="new">NEW</span>
                                     </div>
