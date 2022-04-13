@@ -124,8 +124,13 @@ class PageController extends Controller
         );
         $data1 = json_decode($companys);
         $data2 = json_decode($bests);
-        $shoplists = MyPayment::where('user_id', auth()->user()->id)
-        ->get();
+        if (auth()->user() != NULL) {
+            $shoplists = MyPayment::where('user_id', auth()->user()->id)
+            ->get();
+        }else
+        {
+            $shoplists = NULL;
+        }
         return view('pages.vmarketplace', compact('data1', 'data2', 'shoplists'));
     }
 
