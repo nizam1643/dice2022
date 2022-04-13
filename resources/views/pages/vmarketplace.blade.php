@@ -195,7 +195,11 @@
                                     </div>
                                 @endif
 
-                                {{ __('You are logged in!') }}
+                                <h3>My Current Balance: RM {{ auth()->user()->money_point }}</h3>
+
+                                <ul>
+
+                                </ul>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\MyPayment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
@@ -123,7 +124,9 @@ class PageController extends Controller
         );
         $data1 = json_decode($companys);
         $data2 = json_decode($bests);
-        return view('pages.vmarketplace', compact('data1', 'data2'));
+        $shoplists = MyPayment::where('user_id', auth()->user()->id)
+        ->get();
+        return view('pages.vmarketplace', compact('data1', 'data2', 'shoplists'));
     }
 
     public function vcompany($id)
@@ -218,6 +221,7 @@ class PageController extends Controller
             ]
         );
         dd($post);
+
         return view('pages.vmarketplace');
     }
 }
