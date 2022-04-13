@@ -113,11 +113,18 @@
 
                 <!-- section title -->
 					<div class="col-md-12">
-						<div class="section-title">
+						<div class="section-title text-center">
 							<h3 class="title text-center">{{ $data1->data->name }}</h3>
-							<div class="section-nav">
-
-							</div>
+                            @if ($message = Session::get('success'))
+                            <div class="alert alert-success">
+                                <p>{{ $message }}</p>
+                            </div>
+                            @endif
+                            @if ($message = Session::get('error'))
+                            <div class="alert alert-danger">
+                                <p>{{ $message }}</p>
+                            </div>
+                            @endif
 						</div>
 
 					</div>
@@ -197,7 +204,18 @@
 										<span class="qty-down">-</span>
 									</div>
 								</div> --}}
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Buy</button>
+                                @guest
+                                        <a href="{{ route('page.vmarketplace') }}">Please login to buy product</a>
+                                    @else
+                                    <form action="{{ route('payment.create') }}">
+                                        <input type="hidden" name="user_id" value="{{ auth()->user()->name }}">
+                                        <input type="hidden" name="company_slug"  value="{{ Request::segment(4) }}">
+                                        <input type="hidden" name="item_id" value="{{ $data2->data->id }}">
+                                        <input type="hidden" name="price" value="{{ $data2->data->price }}">
+                                        <input type="hidden" name="item_type" value="MAIN">
+                                        <button class="add-to-cart-btn" onclick="myFunction()" type="submit"><i class="fa fa-shopping-cart"></i> Buy Now</button>
+                                    </form>
+                                    @endguest
 							</div>
 
 							{{-- <ul class="product-links">
@@ -327,7 +345,18 @@
                                 <h4 class="product-price">RM{{ $item2->price }}</h4>
                                 <div class="product-rating">
                                 </div>
-                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Buy Now</button>
+                                @guest
+                                <a href="{{ route('page.vmarketplace') }}">Please login to buy product</a>
+                            @else
+                            <form action="{{ route('payment.create') }}">
+                                <input type="hidden" name="user_id" value="{{ auth()->user()->name }}">
+                                <input type="hidden" name="company_slug"  value="{{ Request::segment(4) }}">
+                                <input type="hidden" name="item_id" value="{{ $item2->id }}">
+                                <input type="hidden" name="price" value="{{ $item2->price }}">
+                                <input type="hidden" name="item_type" value="MERCHANDISE">
+                                <button class="add-to-cart-btn" onclick="myFunction()" type="submit"><i class="fa fa-shopping-cart"></i> Buy Now</button>
+                            </form>
+                            @endguest
                             </div>
 
                         </div>
@@ -373,6 +402,12 @@
 		<script src="{{ asset('market/js/nouislider.min.js') }}"></script>
 		<script src="{{ asset('market/js/jquery.zoom.min.js') }}"></script>
 		<script src="{{ asset('market/js/main.js') }}"></script>
+
+        <script>
+            function myFunction() {
+              confirm("Are you sure you want to buy this product?");
+            }
+        </script>
 
 	</body>
 </html>

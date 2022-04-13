@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MyPaymentController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
@@ -46,6 +47,14 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('test/virtual/marketplace', 'vmarketplace1')->name('vmarketplace1');
 });
 
-//Auth::routes();
+Route::controller(MyPaymentController::class)->name('payment.')->prefix('payment')->group(function () {
+    Route::get('/home', 'create')->name('create');
+});
+
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
