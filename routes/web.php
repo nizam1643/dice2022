@@ -51,10 +51,6 @@ Route::controller(MyPaymentController::class)->name('payment.')->prefix('payment
     Route::get('/home', 'create')->name('create');
 });
 
-Auth::routes([
-    'register' => false,
-    'reset' => false,
-    'verify' => false,
-]);
+Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
