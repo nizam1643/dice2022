@@ -198,11 +198,15 @@
                                 <h3>My Current Balance: RM {{ auth()->user()->money_point }}</h3>
 
                                 <ul>
+                                    @guest
+
+                                    @else
                                     @forelse ($shoplists as $list)
                                         <li>Item {{ $loop->iteration }}: RM {{ $list->price }}</li>
                                     @empty
 
                                     @endforelse
+                                    @endguest
                                 </ul>
                             </div>
                         </div>
