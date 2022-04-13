@@ -115,7 +115,12 @@
                 <!-- section title -->
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h3 class="title text-center" style="color: blue">My Balance Now: RM{{ auth()->user()->money_point }}</h3>
+                        <h3 class="title text-center" style="color: blue">My Balance Now: RM
+                            @guest
+
+                            @else
+                            {{ auth()->user()->money_point }}
+                            @endguest</h3>
                         <div class="section-nav">
 
                         </div>
