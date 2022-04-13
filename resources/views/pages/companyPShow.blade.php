@@ -268,7 +268,7 @@
                                             <div class="col-md-6">
                                                 <h3 class="title">Cinematic Trailer</h3>
                                                 <div class="embed-responsive embed-responsive-16by9">
-                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K2dkJt9R0tQ?rel=0" allowfullscreen></iframe>
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ $data2->data->trailer }}?rel=0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
                                             <!-- /Product main img -->
