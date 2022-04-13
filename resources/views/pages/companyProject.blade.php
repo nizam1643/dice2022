@@ -111,9 +111,19 @@
 				<!-- row -->
 				<div class="row">
 
+
                 <!-- section title -->
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h3 class="title text-center">My Balance Now: RM{{ auth()->user()->money_point }}</h3>
+                        <div class="section-nav">
+
+                        </div>
+                    </div>
+
+                </div>
 					<div class="col-md-12">
-						<div class="section-title">
+						<div class="section-title text-center">
 							<h3 class="title text-center">{{ $data1->data->name }}</h3>
 							<div class="section-nav">
 

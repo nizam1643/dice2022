@@ -111,6 +111,15 @@
 				<!-- row -->
 				<div class="row">
 
+                    <!-- section title -->
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h3 class="title text-center">My Balance Now: RM{{ auth()->user()->money_point }}</h3>
+                        <div class="section-nav">
+
+                        </div>
+                    </div>
+
                 <!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title text-center">
@@ -155,10 +164,12 @@
 		<div class="section">
 			<!-- container -->
 			<div class="container">
+
 				<!-- row -->
 				<div class="row">
+
                     <div class="section-title text-center">
-                        <h3 class="title">{{ $data2->data->name }}</h3>
+                        <h3 class="title text-center">{{ $data2->data->name }}</h3>
                     </div>
 					<!-- Product main img -->
 					<div class="col-md-5 col-md-push-2">
