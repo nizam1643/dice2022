@@ -1,7 +1,7 @@
 @extends('front.second')
 
 @section('style')
-
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.13.216/build/pdf.min.js"></script>
 @endsection
 
 @section('content')
@@ -51,10 +51,23 @@
                         <p class="p-xl">The results of the winner are in! After a long and hard-fought election, the final results are in and the new winner has been announced. Congratulations to the new winner on their victory!
                         </p>
 
-                        <img src="{{ asset('imagefront/closed-stud1.png') }}" class="img-fluid" alt="Closed Event">
+                        <!-- Text -->
+                        <p class="p-xl"><a class="text-danger" href="{{ asset('imagefront/OResultsList.pdf') }}" target="_blank">For mobile browser, click Here to view the result list of the winner.</a></p>
+                        </p>
 
-                        <h2 class="h2-sm">CLOSED</h2>
-
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">
+                                            <div>
+                                                <iframe id="pdf-js-viewer" src="{{ asset('imagefront/OResultsList.pdf') }}" title="webviewer" frameborder="0" width="800" height="800"></iframe>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
