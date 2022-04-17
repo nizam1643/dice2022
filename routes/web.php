@@ -21,6 +21,14 @@ Route::get('/', function () {
     return Redirect::to('/page/home');
 });
 
+Route::get('/virtual/project', function () {
+    return Redirect::to('/page/home');
+})->name('vproject');
+
+Route::get('/virtual/marketplace', function () {
+    return Redirect::to('/page/home');
+})->name('vmarketplace');
+
 //System Level Module
 Route::controller(PageController::class)->name('page.')->prefix('page')->group(function () {
     Route::get('/home', 'index')->name('index');
@@ -33,18 +41,18 @@ Route::controller(PageController::class)->name('page.')->prefix('page')->group(f
     Route::get('/award/list', 'awardlist')->name('awardlist');
     Route::get('/award/rule', 'awardrule')->name('awardrule');
     Route::get('/award/winner', 'awardwinner')->name('awardwinner');
-    Route::get('/virtual/project', 'vproject')->name('vproject');
-    Route::get('/virtual/marketplace', 'vmarketplace')->name('vmarketplace');
-    Route::get('/virtual/company/{id}', 'vcompany')->name('vcompany');
-    Route::get('/virtual/company/{id}/{item}', 'vshow')->name('vshow');
+    // Route::get('/virtual/project', 'vproject')->name('vproject');
+    // Route::get('/virtual/marketplace', 'vmarketplace')->name('vmarketplace');
+    // Route::get('/virtual/company/{id}', 'vcompany')->name('vcompany');
+    // Route::get('/virtual/company/{id}/{item}', 'vshow')->name('vshow');
     Route::get('/about', 'about')->name('about');
 
-    Route::post('/voteposter1', 'voteposter1')->name('voteposter1');
+    // Route::post('/voteposter1', 'voteposter1')->name('voteposter1');
 
-    Route::get('test/company', 'company')->name('company');
-    Route::get('test/companyProject', 'companyProject')->name('companyProject');
-    Route::get('test/virtual/project', 'vproject1')->name('vproject1');
-    Route::get('test/virtual/marketplace', 'vmarketplace1')->name('vmarketplace1');
+    // Route::get('test/company', 'company')->name('company');
+    // Route::get('test/companyProject', 'companyProject')->name('companyProject');
+    // Route::get('test/virtual/project', 'vproject1')->name('vproject1');
+    // Route::get('test/virtual/marketplace', 'vmarketplace1')->name('vmarketplace1');
 });
 
 Route::controller(MyPaymentController::class)->name('payment.')->prefix('payment')->group(function () {
