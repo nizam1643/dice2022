@@ -23,11 +23,11 @@ Route::get('/', function () {
 
 Route::get('/virtual/project', function () {
     return Redirect::to('/page/home');
-})->name('vproject');
+})->name('page.vproject');
 
 Route::get('/virtual/marketplace', function () {
     return Redirect::to('/page/home');
-})->name('vmarketplace');
+})->name('page.vmarketplace');
 
 //System Level Module
 Route::controller(PageController::class)->name('page.')->prefix('page')->group(function () {
