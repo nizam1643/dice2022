@@ -145,8 +145,8 @@
                                     <!-- VIRTUAL -->
                                     <li aria-haspopup="true"><a href="#">Virtual Booth <span class="wsarrow"></span></a>
                                         <ul class="sub-menu">
-                                            <li aria-haspopup="true"><a href="">Project List</a></li>
-                                            <li aria-haspopup="true"><a href="">MarketPlace</a></li>
+                                            <li aria-haspopup="true"><a href="{{ route('page.vproject') }}">Project List</a></li>
+                                            <li aria-haspopup="true"><a href="{{ route('page.vmarketplace') }}">MarketPlace</a></li>
                                         </ul>
                                     </li>
 
